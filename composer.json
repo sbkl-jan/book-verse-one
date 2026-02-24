@@ -44,7 +44,7 @@
             "@php artisan package:discover --ansi"
         ],
         "post-install-cmd": [
-            "@php artisan key:generate",
+           
             "@php artisan migrate --force"
         ],
         "post-update-cmd": [
