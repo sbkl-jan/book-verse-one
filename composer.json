@@ -43,7 +43,8 @@
             "@php artisan clear-compiled",
             "@php artisan package:discover --ansi"
         ],
-       
+
+        "post-install-cmd": []
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
         ],
